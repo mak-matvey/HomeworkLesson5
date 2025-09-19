@@ -184,7 +184,8 @@ html {
 	padding: 25px;
 }
 
-.potters-biography {
+.potters-biography,
+.friends-paragraph {
 	background-color: #111;
 	padding: 10px 10px;
 	padding-bottom: 15px;
@@ -201,4 +202,30 @@ html {
 
 .biography-list li {
 	padding-top: 3px;
+}
+
+.friends {
+	background-color: #111;
+}
+
+.images {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.images img {
+	border-radius: 35px;
+}
+
+.friends-paragraph {
+	font-size: 20px;
+}
+
+.friends-names {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
