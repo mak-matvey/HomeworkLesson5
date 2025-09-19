@@ -126,7 +126,7 @@ ul {
 .features {
 	background: #111;
 	padding: 80px 0;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 	color: white;
 }
 
@@ -146,8 +146,10 @@ ul {
 	border-radius: 50px;
 }
 
-.about-potter-heading {
+.about-potter-heading,
+.biography {
 	font-size: 20px;
+	text-align: center;
 }
 
 html {
@@ -155,15 +157,18 @@ html {
 }
 
 .features {
+	margin: 5px 5px;
 	background-color: #111;
 	padding: 80px 0;
 	color: white;
 }
 
-.features-heading {
+.features-heading,
+.biography-heading {
 	font-size: 36px;
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 5px;
+	margin-top: 15px;
 }
 
 .features-list {
@@ -177,4 +182,23 @@ html {
 	border: 1px solid white;
 	border-radius: 15px;
 	padding: 25px;
+}
+
+.potters-biography {
+	background-color: #111;
+	padding: 10px 10px;
+	padding-bottom: 15px;
+	margin: 5px 5px;
+	color: white;
+}
+
+.biography-list {
+	font-size: 19px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.biography-list li {
+	padding-top: 3px;
 }
