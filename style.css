@@ -164,7 +164,8 @@ html {
 }
 
 .features-heading,
-.biography-heading {
+.biography-heading,
+.friends-heading {
 	font-size: 36px;
 	text-align: center;
 	margin-bottom: 5px;
@@ -228,4 +229,9 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+}
+
+.friends-heading {
+	color: white;
+	padding-top: 15px;
 }
